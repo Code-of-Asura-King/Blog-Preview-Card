@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  min-height: fit-content;
+  box-sizing: border-box;
+  background-color: yellow;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  height: 100dvh;
+  width: 100%;
+}
+
+.outbox {
+  max-width: 375px;
+
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 10px black;
+}
+
+.imagebox {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.inbox {
+  padding: 0px 20px 20px 20px;
+}
+
+button {
+  background-color: #f3d04f;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  border: 0px;
+}
+
+#p1 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+h2:hover {
+  color: #f3d04f;
+}
+
+#p2 {
+  font-weight: 500;
+  color: gray;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+#person {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  font-weight: bolder;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+
+#i1 {
+  width: 2rem;
+  padding: 0px;
+}
+
+.attribution {
+  font-size: 14px;
+}
